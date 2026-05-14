@@ -1,8 +1,10 @@
 # DATASET.md — Moniteur de Tendances en Santé Mentale (MTSM)
 Travail Réalisé par:
--> CHOUHE Jihane
--> EL BARKOUKI Alae
--> EL HAMDAOUI Jihane
+**-> CHOUHE Jihane**
+**-> EL BARKOUKI Alae**
+**-> EL HAMDAOUI Jihane**
+
+
 *Dans le cadre du module GI2-Machine Learning*
 
 ## Vue d'ensemble
