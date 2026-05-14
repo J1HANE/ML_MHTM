@@ -1,0 +1,12 @@
+2026-05-14 02:27:40,628 - INFO - Starting MHTM Data Collection process.
+2026-05-14 02:27:40,629 - INFO - Attempting to load dataset: vibhorag101/reddit-mental-health-dataset-phr
+2026-05-14 02:27:41,021 - WARNING - Failed to load vibhorag101/reddit-mental-health-dataset-phr: Dataset 'vibhorag101/reddit-mental-health-dataset-phr' doesn't exist on the Hub or cannot be accessed.
+2026-05-14 02:27:41,021 - INFO - Attempting to load dataset: solomonk/reddit_mental_health_posts
+2026-05-14 02:28:57,810 - INFO - Successfully loaded dataset: solomonk/reddit_mental_health_posts
+2026-05-14 02:28:57,810 - INFO - Extracting distress posts...
+2026-05-14 02:29:00,613 - INFO - Checkpoint saved: 1800 distress posts to data/dataset.csv
+2026-05-14 02:29:00,613 - INFO - Extracting neutral posts...
+2026-05-14 02:29:06,208 - WARNING - Only found 0 neutral rows (target: 10200)
+2026-05-14 02:29:06,211 - INFO - Shuffling the dataset...
+2026-05-14 02:29:06,216 - INFO - Final dataset saved to data/dataset.csv with 1800 rows.
+2026-05-14 02:29:06,217 - INFO - Sample dataset saved to data/sample.csv.
