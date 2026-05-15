@@ -625,3 +625,284 @@
 2026-05-14 23:03:25 INFO is_distress
 0    400
 1    400
+2026-05-15 10:35:39 INFO Loaded checkpoint for r/depression (100 posts).
+2026-05-15 10:35:39 INFO Loaded checkpoint for r/SuicideWatch (100 posts).
+2026-05-15 10:35:39 INFO Loaded checkpoint for r/anxiety (100 posts).
+2026-05-15 10:35:39 INFO Loaded checkpoint for r/mentalhealth (100 posts).
+2026-05-15 10:35:39 INFO Loaded checkpoint for r/CasualConversation (100 posts).
+2026-05-15 10:35:39 INFO Loaded checkpoint for r/AskReddit (100 posts).
+2026-05-15 10:35:39 INFO Loaded checkpoint for r/fitness (100 posts).
+2026-05-15 10:35:39 INFO Loaded checkpoint for r/productivity (100 posts).
+2026-05-15 10:35:39 INFO Dataset saved to /Users/mac/Documents/School/S8/Machine_learning/MHTM/ML_MHTM/data/dataset.csv
+2026-05-15 10:35:39 INFO Sample saved to /Users/mac/Documents/School/S8/Machine_learning/MHTM/ML_MHTM/data/sample.csv
+2026-05-15 10:35:39 INFO --- Dataset verification report ---
+2026-05-15 10:35:39 INFO Total rows: 800 (✗) – need >=10k
+2026-05-15 10:35:39 INFO Number of columns: 12 (✓)
+2026-05-15 10:35:39 INFO Distress rows: 400 (50.00%) (✗) – need 5–25%
+2026-05-15 10:35:39 INFO Class distribution:
+2026-05-15 10:35:39 INFO is_distress
+0    400
+1    400
+2026-05-15 10:36:51 INFO Starting collection for r/depression – target 450 posts.
+2026-05-15 10:36:53 INFO API call | r/depression | page 1 | status 200 | rows 100
+2026-05-15 10:36:55 INFO API call | r/depression | page 2 | status 200 | rows 0
+2026-05-15 10:36:55 INFO No more data returned for r/depression after page 2.
+2026-05-15 10:36:55 INFO Finished r/depression: collected 100 posts (target 450).
+2026-05-15 10:36:55 INFO Checkpoint saved for r/depression (100 posts).
+2026-05-15 10:36:55 INFO Starting collection for r/SuicideWatch – target 450 posts.
+2026-05-15 10:36:56 INFO API call | r/SuicideWatch | page 1 | status 200 | rows 100
+2026-05-15 10:36:58 INFO API call | r/SuicideWatch | page 2 | status 200 | rows 0
+2026-05-15 10:36:58 INFO No more data returned for r/SuicideWatch after page 2.
+2026-05-15 10:36:58 INFO Finished r/SuicideWatch: collected 100 posts (target 450).
+2026-05-15 10:36:58 INFO Checkpoint saved for r/SuicideWatch (100 posts).
+2026-05-15 10:36:58 INFO Starting collection for r/anxiety – target 450 posts.
+2026-05-15 10:36:59 INFO API call | r/anxiety | page 1 | status 200 | rows 100
+2026-05-15 10:37:01 INFO API call | r/anxiety | page 2 | status 200 | rows 0
+2026-05-15 10:37:01 INFO No more data returned for r/anxiety after page 2.
+2026-05-15 10:37:01 INFO Finished r/anxiety: collected 100 posts (target 450).
+2026-05-15 10:37:01 INFO Checkpoint saved for r/anxiety (100 posts).
+2026-05-15 10:37:01 INFO Starting collection for r/mentalhealth – target 450 posts.
+2026-05-15 10:37:02 INFO API call | r/mentalhealth | page 1 | status 200 | rows 100
+2026-05-15 10:37:04 INFO API call | r/mentalhealth | page 2 | status 200 | rows 0
+2026-05-15 10:37:04 INFO No more data returned for r/mentalhealth after page 2.
+2026-05-15 10:37:04 INFO Finished r/mentalhealth: collected 100 posts (target 450).
+2026-05-15 10:37:04 INFO Checkpoint saved for r/mentalhealth (100 posts).
+2026-05-15 10:37:04 INFO Starting collection for r/CasualConversation – target 2550 posts.
+2026-05-15 10:37:05 INFO API call | r/CasualConversation | page 1 | status 200 | rows 100
+2026-05-15 10:37:06 INFO API call | r/CasualConversation | page 2 | status 200 | rows 0
+2026-05-15 10:37:06 INFO No more data returned for r/CasualConversation after page 2.
+2026-05-15 10:37:06 INFO Finished r/CasualConversation: collected 100 posts (target 2550).
+2026-05-15 10:37:06 INFO Checkpoint saved for r/CasualConversation (100 posts).
+2026-05-15 10:37:06 INFO Starting collection for r/AskReddit – target 2550 posts.
+2026-05-15 10:37:06 INFO API call | r/AskReddit | page 1 | status 200 | rows 100
+2026-05-15 10:37:08 INFO API call | r/AskReddit | page 2 | status 200 | rows 0
+2026-05-15 10:37:08 INFO No more data returned for r/AskReddit after page 2.
+2026-05-15 10:37:08 INFO Finished r/AskReddit: collected 100 posts (target 2550).
+2026-05-15 10:37:08 INFO Checkpoint saved for r/AskReddit (100 posts).
+2026-05-15 10:37:08 INFO Starting collection for r/fitness – target 2550 posts.
+2026-05-15 10:37:09 INFO API call | r/fitness | page 1 | status 200 | rows 100
+2026-05-15 10:37:10 INFO API call | r/fitness | page 2 | status 200 | rows 0
+2026-05-15 10:37:10 INFO No more data returned for r/fitness after page 2.
+2026-05-15 10:37:10 INFO Finished r/fitness: collected 100 posts (target 2550).
+2026-05-15 10:37:10 INFO Checkpoint saved for r/fitness (100 posts).
+2026-05-15 10:37:10 INFO Starting collection for r/productivity – target 2550 posts.
+2026-05-15 10:37:11 INFO API call | r/productivity | page 1 | status 200 | rows 100
+2026-05-15 10:37:12 INFO API call | r/productivity | page 2 | status 200 | rows 0
+2026-05-15 10:37:12 INFO No more data returned for r/productivity after page 2.
+2026-05-15 10:37:12 INFO Finished r/productivity: collected 100 posts (target 2550).
+2026-05-15 10:37:12 INFO Checkpoint saved for r/productivity (100 posts).
+2026-05-15 10:37:12 INFO Dataset saved to /Users/mac/Documents/School/S8/Machine_learning/MHTM/ML_MHTM/data/dataset.csv
+2026-05-15 10:37:12 INFO Sample saved to /Users/mac/Documents/School/S8/Machine_learning/MHTM/ML_MHTM/data/sample.csv
+2026-05-15 10:37:12 INFO --- Dataset verification report ---
+2026-05-15 10:37:12 INFO Total rows: 800 (✗) – need >=10k
+2026-05-15 10:37:12 INFO Number of columns: 12 (✓)
+2026-05-15 10:37:12 INFO Distress rows: 400 (50.00%) (✗) – need 5–25%
+2026-05-15 10:37:12 INFO Class distribution:
+2026-05-15 10:37:12 INFO is_distress
+0    400
+1    400
+2026-05-15 11:52:02 INFO Starting collection for r/depression – target 450 posts.
+2026-05-15 11:52:03 INFO API call | r/depression | page 1 | status 400 | rows ?
+2026-05-15 11:52:03 ERROR Request error for r/depression page 1: 400 Client Error: Bad Request for url: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=depression&limit=100&sort=new
+2026-05-15 11:52:03 INFO Finished r/depression: collected 0 posts (target 450).
+2026-05-15 11:52:03 INFO Checkpoint saved for r/depression (0 posts).
+2026-05-15 11:52:03 INFO Starting collection for r/SuicideWatch – target 450 posts.
+2026-05-15 11:52:03 INFO API call | r/SuicideWatch | page 1 | status 400 | rows ?
+2026-05-15 11:52:03 ERROR Request error for r/SuicideWatch page 1: 400 Client Error: Bad Request for url: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=SuicideWatch&limit=100&sort=new
+2026-05-15 11:52:03 INFO Finished r/SuicideWatch: collected 0 posts (target 450).
+2026-05-15 11:52:03 INFO Checkpoint saved for r/SuicideWatch (0 posts).
+2026-05-15 11:52:03 INFO Starting collection for r/anxiety – target 450 posts.
+2026-05-15 11:52:03 INFO API call | r/anxiety | page 1 | status 400 | rows ?
+2026-05-15 11:52:03 ERROR Request error for r/anxiety page 1: 400 Client Error: Bad Request for url: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=anxiety&limit=100&sort=new
+2026-05-15 11:52:03 INFO Finished r/anxiety: collected 0 posts (target 450).
+2026-05-15 11:52:03 INFO Checkpoint saved for r/anxiety (0 posts).
+2026-05-15 11:52:03 INFO Starting collection for r/mentalhealth – target 450 posts.
+2026-05-15 11:52:04 INFO API call | r/mentalhealth | page 1 | status 400 | rows ?
+2026-05-15 11:52:04 ERROR Request error for r/mentalhealth page 1: 400 Client Error: Bad Request for url: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=mentalhealth&limit=100&sort=new
+2026-05-15 11:52:04 INFO Finished r/mentalhealth: collected 0 posts (target 450).
+2026-05-15 11:52:04 INFO Checkpoint saved for r/mentalhealth (0 posts).
+2026-05-15 11:52:04 INFO Starting collection for r/CasualConversation – target 2550 posts.
+2026-05-15 11:52:04 INFO API call | r/CasualConversation | page 1 | status 400 | rows ?
+2026-05-15 11:52:04 ERROR Request error for r/CasualConversation page 1: 400 Client Error: Bad Request for url: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=CasualConversation&limit=100&sort=new
+2026-05-15 11:52:04 INFO Finished r/CasualConversation: collected 0 posts (target 2550).
+2026-05-15 11:52:04 INFO Checkpoint saved for r/CasualConversation (0 posts).
+2026-05-15 11:52:04 INFO Starting collection for r/AskReddit – target 2550 posts.
+2026-05-15 11:52:04 INFO API call | r/AskReddit | page 1 | status 400 | rows ?
+2026-05-15 11:52:04 ERROR Request error for r/AskReddit page 1: 400 Client Error: Bad Request for url: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=AskReddit&limit=100&sort=new
+2026-05-15 11:52:04 INFO Finished r/AskReddit: collected 0 posts (target 2550).
+2026-05-15 11:52:04 INFO Checkpoint saved for r/AskReddit (0 posts).
+2026-05-15 11:52:04 INFO Starting collection for r/fitness – target 2550 posts.
+2026-05-15 11:52:05 INFO API call | r/fitness | page 1 | status 400 | rows ?
+2026-05-15 11:52:05 ERROR Request error for r/fitness page 1: 400 Client Error: Bad Request for url: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=fitness&limit=100&sort=new
+2026-05-15 11:52:05 INFO Finished r/fitness: collected 0 posts (target 2550).
+2026-05-15 11:52:05 INFO Checkpoint saved for r/fitness (0 posts).
+2026-05-15 11:52:05 INFO Starting collection for r/productivity – target 2550 posts.
+2026-05-15 11:52:05 INFO API call | r/productivity | page 1 | status 400 | rows ?
+2026-05-15 11:52:05 ERROR Request error for r/productivity page 1: 400 Client Error: Bad Request for url: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=productivity&limit=100&sort=new
+2026-05-15 11:52:05 INFO Finished r/productivity: collected 0 posts (target 2550).
+2026-05-15 11:52:05 INFO Checkpoint saved for r/productivity (0 posts).
+2026-05-15 11:52:05 INFO Dataset saved to /Users/mac/Documents/School/S8/Machine_learning/MHTM/ML_MHTM/data/dataset.csv
+2026-05-15 11:52:05 INFO Sample saved to /Users/mac/Documents/School/S8/Machine_learning/MHTM/ML_MHTM/data/sample.csv
+2026-05-15 11:52:05 INFO --- Dataset verification report ---
+2026-05-15 11:52:05 INFO Total rows: 0 (✗) – need >=10k
+2026-05-15 11:52:05 INFO Number of columns: 0 (✗) – need >=8
+2026-05-15 11:52:05 INFO Distress rows: 0 (0.00%) (✗) – need 5–25%
+2026-05-15 11:52:05 INFO Class distribution: column 'is_distress' not present.
+2026-05-15 13:47:20 INFO Starting collection for r/depression – target 450 posts.
+2026-05-15 13:47:21 INFO API call | r/depression | page 1 | status 200 | rows 100
+2026-05-15 13:47:23 INFO API call | r/depression | page 2 | status 200 | rows 100
+2026-05-15 13:47:24 INFO API call | r/depression | page 3 | status 200 | rows 100
+2026-05-15 13:47:26 INFO API call | r/depression | page 4 | status 200 | rows 100
+2026-05-15 13:47:28 INFO API call | r/depression | page 5 | status 200 | rows 100
+2026-05-15 13:47:29 INFO Finished r/depression: collected 450 posts (target 450).
+2026-05-15 13:47:29 INFO Checkpoint saved for r/depression (450 posts).
+2026-05-15 13:47:29 INFO Starting collection for r/SuicideWatch – target 450 posts.
+2026-05-15 13:47:29 INFO API call | r/SuicideWatch | page 1 | status 200 | rows 100
+2026-05-15 13:47:31 INFO API call | r/SuicideWatch | page 2 | status 200 | rows 100
+2026-05-15 13:47:32 INFO API call | r/SuicideWatch | page 3 | status 200 | rows 100
+2026-05-15 13:47:34 INFO API call | r/SuicideWatch | page 4 | status 200 | rows 100
+2026-05-15 13:47:35 INFO API call | r/SuicideWatch | page 5 | status 200 | rows 100
+2026-05-15 13:47:36 INFO Finished r/SuicideWatch: collected 450 posts (target 450).
+2026-05-15 13:47:36 INFO Checkpoint saved for r/SuicideWatch (450 posts).
+2026-05-15 13:47:36 INFO Starting collection for r/anxiety – target 450 posts.
+2026-05-15 13:47:37 INFO API call | r/anxiety | page 1 | status 200 | rows 100
+2026-05-15 13:47:39 INFO API call | r/anxiety | page 2 | status 200 | rows 100
+2026-05-15 13:47:41 INFO API call | r/anxiety | page 3 | status 200 | rows 100
+2026-05-15 13:47:42 INFO API call | r/anxiety | page 4 | status 200 | rows 100
+2026-05-15 13:47:44 INFO API call | r/anxiety | page 5 | status 200 | rows 100
+2026-05-15 13:47:45 INFO Finished r/anxiety: collected 450 posts (target 450).
+2026-05-15 13:47:45 INFO Checkpoint saved for r/anxiety (450 posts).
+2026-05-15 13:47:45 INFO Starting collection for r/mentalhealth – target 450 posts.
+2026-05-15 13:47:46 INFO API call | r/mentalhealth | page 1 | status 200 | rows 100
+2026-05-15 13:47:48 INFO API call | r/mentalhealth | page 2 | status 200 | rows 100
+2026-05-15 13:47:49 INFO API call | r/mentalhealth | page 3 | status 200 | rows 100
+2026-05-15 13:47:52 INFO API call | r/mentalhealth | page 4 | status 200 | rows 100
+2026-05-15 13:47:54 INFO API call | r/mentalhealth | page 5 | status 200 | rows 100
+2026-05-15 13:47:55 INFO Finished r/mentalhealth: collected 450 posts (target 450).
+2026-05-15 13:47:55 INFO Checkpoint saved for r/mentalhealth (450 posts).
+2026-05-15 13:47:55 INFO Starting collection for r/CasualConversation – target 2550 posts.
+2026-05-15 13:47:55 INFO API call | r/CasualConversation | page 1 | status 200 | rows 100
+2026-05-15 13:47:57 INFO API call | r/CasualConversation | page 2 | status 200 | rows 100
+2026-05-15 13:47:59 INFO API call | r/CasualConversation | page 3 | status 200 | rows 100
+2026-05-15 13:48:01 INFO API call | r/CasualConversation | page 4 | status 200 | rows 100
+2026-05-15 13:48:03 INFO API call | r/CasualConversation | page 5 | status 200 | rows 100
+2026-05-15 13:48:04 INFO API call | r/CasualConversation | page 6 | status 200 | rows 100
+2026-05-15 13:48:07 INFO API call | r/CasualConversation | page 7 | status 200 | rows 100
+2026-05-15 13:48:09 INFO API call | r/CasualConversation | page 8 | status 200 | rows 100
+2026-05-15 13:48:10 INFO API call | r/CasualConversation | page 9 | status 200 | rows 100
+2026-05-15 13:48:12 INFO API call | r/CasualConversation | page 10 | status 200 | rows 100
+2026-05-15 13:48:14 INFO API call | r/CasualConversation | page 11 | status 200 | rows 100
+2026-05-15 13:48:16 INFO API call | r/CasualConversation | page 12 | status 200 | rows 100
+2026-05-15 13:48:18 INFO API call | r/CasualConversation | page 13 | status 200 | rows 100
+2026-05-15 13:48:21 INFO API call | r/CasualConversation | page 14 | status 200 | rows 100
+2026-05-15 13:48:23 INFO API call | r/CasualConversation | page 15 | status 200 | rows 100
+2026-05-15 13:48:24 INFO API call | r/CasualConversation | page 16 | status 200 | rows 100
+2026-05-15 13:48:26 INFO API call | r/CasualConversation | page 17 | status 200 | rows 100
+2026-05-15 13:48:28 INFO API call | r/CasualConversation | page 18 | status 200 | rows 100
+2026-05-15 13:48:30 INFO API call | r/CasualConversation | page 19 | status 200 | rows 100
+2026-05-15 13:48:32 INFO API call | r/CasualConversation | page 20 | status 200 | rows 100
+2026-05-15 13:48:34 INFO API call | r/CasualConversation | page 21 | status 200 | rows 100
+2026-05-15 13:48:37 INFO API call | r/CasualConversation | page 22 | status 200 | rows 100
+2026-05-15 13:48:39 INFO API call | r/CasualConversation | page 23 | status 200 | rows 100
+2026-05-15 13:48:41 INFO API call | r/CasualConversation | page 24 | status 200 | rows 100
+2026-05-15 13:48:43 INFO API call | r/CasualConversation | page 25 | status 200 | rows 100
+2026-05-15 13:48:45 INFO API call | r/CasualConversation | page 26 | status 200 | rows 100
+2026-05-15 13:48:46 INFO Finished r/CasualConversation: collected 2550 posts (target 2550).
+2026-05-15 13:48:46 INFO Checkpoint saved for r/CasualConversation (2550 posts).
+2026-05-15 13:48:46 INFO Starting collection for r/AskReddit – target 2550 posts.
+2026-05-15 13:48:47 INFO API call | r/AskReddit | page 1 | status 200 | rows 100
+2026-05-15 13:48:50 INFO API call | r/AskReddit | page 2 | status 200 | rows 100
+2026-05-15 13:48:52 INFO API call | r/AskReddit | page 3 | status 200 | rows 100
+2026-05-15 13:48:54 INFO API call | r/AskReddit | page 4 | status 200 | rows 100
+2026-05-15 13:48:55 INFO API call | r/AskReddit | page 5 | status 200 | rows 100
+2026-05-15 13:48:58 INFO API call | r/AskReddit | page 6 | status 200 | rows 100
+2026-05-15 13:49:01 INFO API call | r/AskReddit | page 7 | status 200 | rows 100
+2026-05-15 13:49:03 INFO API call | r/AskReddit | page 8 | status 200 | rows 100
+2026-05-15 13:49:06 INFO API call | r/AskReddit | page 9 | status 200 | rows 100
+2026-05-15 13:49:08 INFO API call | r/AskReddit | page 10 | status 200 | rows 100
+2026-05-15 13:49:10 INFO API call | r/AskReddit | page 11 | status 200 | rows 100
+2026-05-15 13:49:13 INFO API call | r/AskReddit | page 12 | status 200 | rows 100
+2026-05-15 13:49:15 INFO API call | r/AskReddit | page 13 | status 200 | rows 100
+2026-05-15 13:49:18 INFO API call | r/AskReddit | page 14 | status 200 | rows 100
+2026-05-15 13:49:20 INFO API call | r/AskReddit | page 15 | status 200 | rows 100
+2026-05-15 13:49:22 INFO API call | r/AskReddit | page 16 | status 200 | rows 100
+2026-05-15 13:49:23 INFO API call | r/AskReddit | page 17 | status 200 | rows 100
+2026-05-15 13:49:25 INFO API call | r/AskReddit | page 18 | status 200 | rows 100
+2026-05-15 13:49:27 INFO API call | r/AskReddit | page 19 | status 200 | rows 100
+2026-05-15 13:49:29 INFO API call | r/AskReddit | page 20 | status 200 | rows 100
+2026-05-15 13:49:31 INFO API call | r/AskReddit | page 21 | status 200 | rows 100
+2026-05-15 13:49:33 INFO API call | r/AskReddit | page 22 | status 200 | rows 100
+2026-05-15 13:49:35 INFO API call | r/AskReddit | page 23 | status 200 | rows 100
+2026-05-15 13:49:36 INFO API call | r/AskReddit | page 24 | status 200 | rows 100
+2026-05-15 13:49:38 INFO API call | r/AskReddit | page 25 | status 200 | rows 100
+2026-05-15 13:49:39 INFO API call | r/AskReddit | page 26 | status 200 | rows 100
+2026-05-15 13:49:40 INFO Finished r/AskReddit: collected 2550 posts (target 2550).
+2026-05-15 13:49:40 INFO Checkpoint saved for r/AskReddit (2550 posts).
+2026-05-15 13:49:40 INFO Starting collection for r/fitness – target 2550 posts.
+2026-05-15 13:49:42 INFO API call | r/fitness | page 1 | status 200 | rows 100
+2026-05-15 13:49:44 INFO API call | r/fitness | page 2 | status 200 | rows 100
+2026-05-15 13:49:45 INFO API call | r/fitness | page 3 | status 200 | rows 100
+2026-05-15 13:49:48 INFO API call | r/fitness | page 4 | status 200 | rows 100
+2026-05-15 13:49:49 INFO API call | r/fitness | page 5 | status 200 | rows 100
+2026-05-15 13:49:51 INFO API call | r/fitness | page 6 | status 200 | rows 100
+2026-05-15 13:49:53 INFO API call | r/fitness | page 7 | status 200 | rows 100
+2026-05-15 13:49:55 INFO API call | r/fitness | page 8 | status 200 | rows 100
+2026-05-15 13:49:57 INFO API call | r/fitness | page 9 | status 200 | rows 100
+2026-05-15 13:49:58 INFO API call | r/fitness | page 10 | status 200 | rows 100
+2026-05-15 13:50:00 INFO API call | r/fitness | page 11 | status 200 | rows 100
+2026-05-15 13:50:02 INFO API call | r/fitness | page 12 | status 200 | rows 100
+2026-05-15 13:50:04 INFO API call | r/fitness | page 13 | status 200 | rows 100
+2026-05-15 13:50:06 INFO API call | r/fitness | page 14 | status 200 | rows 100
+2026-05-15 13:50:09 INFO API call | r/fitness | page 15 | status 200 | rows 100
+2026-05-15 13:50:10 INFO API call | r/fitness | page 16 | status 200 | rows 100
+2026-05-15 13:50:13 INFO API call | r/fitness | page 17 | status 200 | rows 100
+2026-05-15 13:50:17 INFO API call | r/fitness | page 18 | status 200 | rows 100
+2026-05-15 13:50:19 INFO API call | r/fitness | page 19 | status 200 | rows 100
+2026-05-15 13:50:22 INFO API call | r/fitness | page 20 | status 200 | rows 100
+2026-05-15 13:50:24 INFO API call | r/fitness | page 21 | status 200 | rows 100
+2026-05-15 13:50:26 INFO API call | r/fitness | page 22 | status 200 | rows 100
+2026-05-15 13:50:28 INFO API call | r/fitness | page 23 | status 200 | rows 100
+2026-05-15 13:50:29 INFO API call | r/fitness | page 24 | status 200 | rows 100
+2026-05-15 13:50:31 INFO API call | r/fitness | page 25 | status 200 | rows 100
+2026-05-15 13:50:32 INFO API call | r/fitness | page 26 | status 200 | rows 100
+2026-05-15 13:50:33 INFO Finished r/fitness: collected 2550 posts (target 2550).
+2026-05-15 13:50:33 INFO Checkpoint saved for r/fitness (2550 posts).
+2026-05-15 13:50:33 INFO Starting collection for r/productivity – target 2550 posts.
+2026-05-15 13:50:34 INFO API call | r/productivity | page 1 | status 200 | rows 100
+2026-05-15 13:50:35 INFO API call | r/productivity | page 2 | status 200 | rows 100
+2026-05-15 13:50:37 INFO API call | r/productivity | page 3 | status 200 | rows 100
+2026-05-15 13:50:38 INFO API call | r/productivity | page 4 | status 200 | rows 100
+2026-05-15 13:50:40 INFO API call | r/productivity | page 5 | status 200 | rows 100
+2026-05-15 13:50:42 INFO API call | r/productivity | page 6 | status 200 | rows 100
+2026-05-15 13:50:44 INFO API call | r/productivity | page 7 | status 200 | rows 100
+2026-05-15 13:50:47 INFO API call | r/productivity | page 8 | status 200 | rows 100
+2026-05-15 13:50:48 INFO API call | r/productivity | page 9 | status 200 | rows 100
+2026-05-15 13:50:50 INFO API call | r/productivity | page 10 | status 200 | rows 100
+2026-05-15 13:50:53 INFO API call | r/productivity | page 11 | status 200 | rows 100
+2026-05-15 13:50:55 INFO API call | r/productivity | page 12 | status 200 | rows 100
+2026-05-15 13:50:57 INFO API call | r/productivity | page 13 | status 200 | rows 100
+2026-05-15 13:50:59 INFO API call | r/productivity | page 14 | status 200 | rows 100
+2026-05-15 13:51:01 INFO API call | r/productivity | page 15 | status 200 | rows 100
+2026-05-15 13:51:03 INFO API call | r/productivity | page 16 | status 200 | rows 100
+2026-05-15 13:51:04 INFO API call | r/productivity | page 17 | status 200 | rows 100
+2026-05-15 13:51:07 INFO API call | r/productivity | page 18 | status 200 | rows 100
+2026-05-15 13:51:10 INFO API call | r/productivity | page 19 | status 200 | rows 100
+2026-05-15 13:51:12 INFO API call | r/productivity | page 20 | status 200 | rows 100
+2026-05-15 13:51:13 INFO API call | r/productivity | page 21 | status 200 | rows 100
+2026-05-15 13:51:15 INFO API call | r/productivity | page 22 | status 200 | rows 100
+2026-05-15 13:51:16 INFO API call | r/productivity | page 23 | status 200 | rows 100
+2026-05-15 13:51:18 INFO API call | r/productivity | page 24 | status 200 | rows 100
+2026-05-15 13:51:19 INFO API call | r/productivity | page 25 | status 200 | rows 100
+2026-05-15 13:51:21 INFO API call | r/productivity | page 26 | status 200 | rows 100
+2026-05-15 13:51:22 INFO Finished r/productivity: collected 2550 posts (target 2550).
+2026-05-15 13:51:22 INFO Checkpoint saved for r/productivity (2550 posts).
+2026-05-15 13:51:22 INFO Dataset saved to /Users/mac/Documents/School/S8/Machine_learning/MHTM/ML_MHTM/data/dataset.csv
+2026-05-15 13:51:22 INFO Sample saved to /Users/mac/Documents/School/S8/Machine_learning/MHTM/ML_MHTM/data/sample.csv
+2026-05-15 13:51:22 INFO --- Dataset verification report ---
+2026-05-15 13:51:22 INFO Total rows: 12000 (✓)
+2026-05-15 13:51:22 INFO Number of columns: 12 (✓)
+2026-05-15 13:51:22 INFO Distress rows: 1800 (15.00%) (✓)
+2026-05-15 13:51:22 INFO Class distribution:
+2026-05-15 13:51:22 INFO is_distress
+0    10200
+1     1800

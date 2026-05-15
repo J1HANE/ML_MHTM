@@ -13,7 +13,7 @@ import json
 import logging
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Dict
 
@@ -27,7 +27,7 @@ DISTRESS_SUBREDDITS: List[str] = ["depression", "SuicideWatch", "anxiety", "ment
 NEUTRAL_SUBREDDITS: List[str] = ["CasualConversation", "AskReddit", "fitness", "productivity"]
 
 # Target number of posts per subreddit
-TARGETS: Dict[str, int] = {
+TARGET_PER_SUBREDDIT: Dict[str, int] = {
     # distress: 450 each → 1,800 total
     "depression": 450,
     "SuicideWatch": 450,
@@ -102,7 +102,7 @@ def extract_features(post: Dict, subreddit: str) -> Dict:
     # Timestamp handling
     created = post.get("created_utc")
     if isinstance(created, (int, float)):
-        hour = datetime.utcfromtimestamp(created).hour
+        hour = datetime.fromtimestamp(created, timezone.utc).hour
     else:
         hour = -1
 
@@ -136,15 +136,15 @@ def fetch_subreddit(subreddit: str, target: int) -> List[Dict]:
     """
     logger.info(f"Starting collection for r/{subreddit} – target {target} posts.")
     collected: List[Dict] = []
-    after_timestamp: int = 0  # start from epoch
+    before_timestamp = None
     page = 0
 
     while len(collected) < target:
         page += 1
-        # Build request parameters; omit 'after' on the first page (timestamp 0) to avoid API errors.
-        params = {"subreddit": subreddit, "limit": PAGE_SIZE}
-        if after_timestamp:
-            params["after"] = after_timestamp
+        # Build request parameters; omit 'before' on the first page to fetch newest.
+        params = {"subreddit": subreddit, "limit": PAGE_SIZE, "sort": "desc"}
+        if before_timestamp is not None:
+            params["before"] = before_timestamp
         try:
             response = requests.get(BASE_URL, params=params, timeout=10)
             # Determine rows safely – handle both list and dict responses.
@@ -171,14 +171,22 @@ def fetch_subreddit(subreddit: str, target: int) -> List[Dict]:
             logger.info(f"No more data returned for r/{subreddit} after page {page}.")
             break
 
+        current_page_min_timestamp = None
+
         for post in data:
             if len(collected) >= target:
                 break
             features = extract_features(post, subreddit)
             collected.append(features)
+            
             created = post.get("created_utc")
-            if isinstance(created, (int, float)) and created > after_timestamp:
-                after_timestamp = int(created)
+            if isinstance(created, (int, float)):
+                if current_page_min_timestamp is None or created < current_page_min_timestamp:
+                    current_page_min_timestamp = int(created)
+
+        # Update before_timestamp for the next page
+        if current_page_min_timestamp is not None:
+            before_timestamp = current_page_min_timestamp
 
         if len(data) < PAGE_SIZE:
             logger.info(f"Reached end of subreddit r/{subreddit} after page {page}.")
@@ -229,7 +237,7 @@ def main():
         if checkpoint:
             all_rows.extend(checkpoint)
             continue
-        target = TARGETS.get(subreddit, 0)
+        target = TARGET_PER_SUBREDDIT.get(subreddit, 0)
         rows = fetch_subreddit(subreddit, target)
         all_rows.extend(rows)
         save_checkpoint(subreddit, rows)
